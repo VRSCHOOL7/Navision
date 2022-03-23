@@ -66,7 +66,7 @@
                            <GridPane.margin>
                               <Insets />
                            </GridPane.margin></Label>
-                        <Label fx:id="description" prefHeight="81.0" prefWidth="570.0" style="-fx-background-color: DarkGrey; -fx-font-size: 20;" styleClass="label-bright" stylesheets="@DarkTheme.css" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="description" prefHeight="80.0" prefWidth="570.0" style="-fx-background-color: DarkGrey; -fx-font-size: 20;" styleClass="label-bright" stylesheets="@DarkTheme.css" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
                   <HBox layoutX="182.0" layoutY="259.0" spacing="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />

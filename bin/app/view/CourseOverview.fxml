@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="875.0" prefWidth="1500.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.CourseOverviewController">
+<AnchorPane prefHeight="875.0" prefWidth="1500.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.CourseOverviewController">
    <children>
       <SplitPane centerShape="false" dividerPositions="0.25" prefHeight="700.0" prefWidth="1200.0" scaleShape="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -66,7 +66,7 @@
                            <GridPane.margin>
                               <Insets />
                            </GridPane.margin></Label>
-                        <Label fx:id="description" prefHeight="81.0" prefWidth="570.0" style="-fx-background-color: DarkGrey; -fx-font-size: 20;" styleClass="label-bright" stylesheets="@DarkTheme.css" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="description" prefHeight="80.0" prefWidth="570.0" style="-fx-background-color: DarkGrey; -fx-font-size: 20;" styleClass="label-bright" stylesheets="@DarkTheme.css" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
                   <HBox layoutX="182.0" layoutY="259.0" spacing="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
