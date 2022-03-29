@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Column1#_id]
+      ,[Column1#title]
+      ,[Column1#description]
+      ,[Column1#subscribers#teachers]
+      ,[Column1#subscribers#students]
+      ,[Column1#elements]
+      ,[Column1#tasks]
+      ,[Column1#vr_tasks]
+  FROM [Demo Database NAV (9-0)].[dbo].[Hoja3$]
